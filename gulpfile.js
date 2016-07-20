@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 var gulp = require('gulp');
 var connect = require('gulp-connect');
 var open = require('gulp-open');
@@ -24,4 +22,8 @@ gulp.task('connect',function(){
     livereload : true
   };
   connect.server(serverOpts);
+});
+
+gulp.task('test',function(){
+    console.log('testing app');
 });
