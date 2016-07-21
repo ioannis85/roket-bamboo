@@ -13,8 +13,6 @@ paths : {
   }
 };
 
-
-
 /* Start a local development server */
 gulp.task('connect',function(){
   var serverOpts = {
